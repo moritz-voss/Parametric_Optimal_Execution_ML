@@ -8,6 +8,6 @@ This repository provides the Jupyter Notebook accompanying the manuscript <i>On 
 
 <ul>
   <li>Optimal_Execution_ML_Surrogates.ipynb: Main Jupyter Notebook for NN training and testing.</li>
-  <li>LinearModel.py: Implementation of the linear optimal benchmark policy.</li>
+  <li>LinearModel.py: Implementation of the optimal linear benchmark policy.</li>
   <li>50_1_nopti: Optimal quantization grid of the standard univariate normal distribution of size 50 (from <a href="http://www.quantize.maths-fi.com">www.quantize.maths-fi.com</a>)</li>
 </ul>
