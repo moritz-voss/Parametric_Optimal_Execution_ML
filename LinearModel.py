@@ -43,7 +43,7 @@ def optimizer(X0, d0, eta, kappa, nu, sigma, N, epsilon):
         for i in range(1,N,1):
             
             control[i] = 2/(rho[i+1]) * ((2 * a[i+1] + 2 * nu - b[i+1] * eta) * remainOrder[i-1] - 
-                                           (1 - b[i+1] + 2 * eta * c[i+1]) * (1-kappa) * spread[i-1])
+                                           (1 - b[i+1] + 2 * eta * c[i+1]) * (1-kappa) * deviation[i-1])
             
             remainOrder[i] = remainOrder[i-1] - control[i]
             deviation[i] = (1-kappa) * deviation[i-1] + eta * control[i] + epsilon[i]
